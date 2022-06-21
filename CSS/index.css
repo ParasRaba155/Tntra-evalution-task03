@@ -1,0 +1,67 @@
+body {
+  background-color: aliceblue;
+  /* background-color: aqua; */
+}
+.asterick{
+  margin-right: 5px;
+}
+.asterick::after {
+  content: "*";
+  color: red
+}
+
+.page {
+  padding-top: 10%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.308);
+  padding : 25px 0px 15px 10px;
+  border: solid black;
+}
+
+
+#gender-error {
+  margin-top: 15px;
+}
+
+
+.row{
+  margin-bottom: 30px !important;
+}
+
+.small_txt{
+  /* color: grey; */
+  font-size: 13px;
+  padding-left: 17px;
+
+}
+
+.container2{
+  width: 100%;
+}
+
+#submit_btn{
+  background-color: white;
+  padding: 2px 10px 2px 10px;
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  /* display: block; */
+  margin-left: 15px;
+}
+
+input.error,
+textarea.error {
+  border: 1px dashed red;
+  font-weight: 300;
+  color: red;
+}
+
+#displayArea{
+  border : 1px solid black;
+}
+
+#displayArea td{
+  border : 1px solid black;
+}
