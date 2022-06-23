@@ -1,4 +1,4 @@
 # the jquery plugin files plus the extra trial and error index file
 JS/index.js
-**/jquery.min.js
-**/jquery.validate.js
+*/jquery.min.js
+*/jquery.validate.js
