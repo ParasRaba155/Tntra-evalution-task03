@@ -152,7 +152,7 @@ $('#myForm').submit(function(event){
             }
             localStorage.setItem('times',JSON.stringify(times));
         }
-        location.href = ('../HTML/table_page.html');
+        window.open('../HTML/table_page.html');
     }
 });
 
